@@ -1,0 +1,8 @@
+flask
+fabric
+mongoengine
+flask-wtf
+flask-mongoengine
+flask-login
+flask-script
+boto
