@@ -32,10 +32,10 @@
     <meta name="twitter:image" content="/img/brand/logo.png">
 
     <!-- Fav Icon -->
-    <link href="http://www.andela.co/modules/core/img/assets/home/Andela%20icon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="http://www.andela.co/static/assets/home/Andela%20icon.png" rel="shortcut icon" type="image/x-icon">
 
     <!--Application CSS Files-->
-    <link rel="stylesheet" href="http://www.andela.co/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://www.andela.co/lib/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{{url_for('static', filename='css/about.css')}}">
     <link rel="stylesheet" href="{{url_for('static', filename='css/carousel.css')}}">
@@ -74,7 +74,7 @@
             <!-- ngInclude: '/modules/core/views/header.client.view.html' -->
             <header data-ng-include="'{{ url_for('static', filename='views/header.client.view.html') }}'"></header>
             <section class="content">
-            {% block content %} {% endblock %}
+                <section class="container-fluid">{% block content %} {% endblock %}</section>
             </section>
 
                 <!-- </section> -->
@@ -86,48 +86,9 @@
             </script>
 
             <!--Application JavaScript Files-->
-            <!-- {% assets "js_all" %}
+             {% assets "js_all" %}
                 <script type="text/javascript" src="{{ASSET_URL}}"></script>
-            {% endassets %} -->
-            <script type="text/javascript" src="static/angular.min.js"></script>
-            <script type="text/javascript" src="static/angular-resource.js"></script>
-            <script type="text/javascript" src="static/angular-cookies.js"></script>
-            <script type="text/javascript" src="static/angular-animate.js"></script>
-            <script type="text/javascript" src="static/angular-touch.js"></script>
-            <script type="text/javascript" src="static/angular-sanitize.js"></script>
-            <script type="text/javascript" src="static/angular-ui-router.min.js"></script>
-            <script type="text/javascript" src="static/ui-utils.min.js"></script>
-            <script type="text/javascript" src="static/ui-bootstrap-tpls.min.js"></script>
-            <script type="text/javascript" src="static/jquery.min.js"></script>
-            <script type="text/javascript" src="static/angular-bootstrap-affix.js"></script>
-            <script type="text/javascript" src="static/bootstrap-affix.js"></script>
-            <script type="text/javascript" src="static/angular-strap.min.js"></script>
-            <script type="text/javascript" src="static/angular-strap.tpl.min.js"></script>
-            <script type="text/javascript" src="static/angular-mailchimp.js"></script>
-            <script type="text/javascript" src="static/config.js"></script>
-            <script type="text/javascript" src="static/application.js"></script>
-            <script type="text/javascript" src="static/core.client.module.js"></script>
-            <script type="text/javascript" src="static/users.client.module.js"></script>
-            <script type="text/javascript" src="static/core.client.routes.js"></script>
-            <script type="text/javascript" src="static/about.client.controller.js"></script>
-            <script type="text/javascript" src="static/header.client.controller.js"></script>
-            <script type="text/javascript" src="static/hire.client.controller.js"></script>
-            <script type="text/javascript" src="static/home.client.controller.js"></script>
-            <script type="text/javascript" src="static/in-the-news.client.controller.js"></script>
-            <script type="text/javascript" src="static/what_we_do.client.controller.js"></script>
-            <script type="text/javascript" src="static/member-detail-view.client.directive.js"></script>
-            <script type="text/javascript" src="static/scroll-view.client.directive.js"></script>
-            <script type="text/javascript" src="static/stick-view.client.directive.js"></script>
-            <script type="text/javascript" src="static/menus.client.service.js"></script>
-            <script type="text/javascript" src="static/mixpanel.client.service.js"></script>
-            <script type="text/javascript" src="static/users.client.config.js"></script>
-            <script type="text/javascript" src="static/users.client.routes.js"></script>
-            <script type="text/javascript" src="static/authentication.client.controller.js"></script>
-            <script type="text/javascript" src="static/password.client.controller.js"></script>
-            <script type="text/javascript" src="static/settings.client.controller.js"></script>
-            <script type="text/javascript" src="static/authentication.client.service.js"></script>
-            <script type="text/javascript" src="static/users.client.service.js"></script>
-             
+            {% endassets %}
   
 
             

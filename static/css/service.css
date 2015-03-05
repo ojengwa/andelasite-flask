@@ -246,7 +246,7 @@ font-style: normal;
 	font-size: 1.0em;
 }
 .andela-developer li>div:before{
-	content: url('/modules/core/img/check_s.png');
+	content: url('/static/check_s.png');
 	position: absolute;
 	top:25%;
 	left: -64px;
@@ -257,7 +257,7 @@ font-style: normal;
 }
 
 .what_we_do-banner {
-	background: url('/modules/core/img/assets/services/laptop-services-bg.jpg') no-repeat center;
+	background: url('/static/laptop-services-bg.jpg') no-repeat center;
 	background-size: cover;
 	height: 300px;
 }

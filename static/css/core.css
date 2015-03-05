@@ -12,14 +12,14 @@
 }
 @font-face {
     font-family: 'Flaticons';
-    src: url('/modules/core/css/fonts/flaticons_stroke/Font/flaticons-stroke.eot');
-    src: url('/modules/core/css/fonts/flaticons_stroke/Font/flaticons-stroke.eot?#iefix') format("embedded-opentype"), url('/modules/core/css/fonts/flaticons_stroke/Font/flaticons-stroke.woff') format('woff'), url('/modules/core/css/fonts/flaticons_stroke/Font/flaticons-stroke.ttf') format('truetype'), url('/modules/core/css/fonts/flaticons_stroke/Font/flaticons-stroke.svg#flaticons-stroke') format('svg');
+    src: url('/static/css/fonts/flaticons_stroke/Font/flaticons-stroke.eot');
+    src: url('/static/css/fonts/flaticons_stroke/Font/flaticons-stroke.eot?#iefix') format("embedded-opentype"), url('/static/css/fonts/flaticons_stroke/Font/flaticons-stroke.woff') format('woff'), url('/static/css/fonts/flaticons_stroke/Font/flaticons-stroke.ttf') format('truetype'), url('/static/css/fonts/flaticons_stroke/Font/flaticons-stroke.svg#flaticons-stroke') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Lakesight";
-    src: url("/modules/core/css/fonts/Lakesight.eot?") format("eot"), url("/modules/core/css/fonts/Lakesight.woff") format("woff"), url("/modules/core/css/fonts/Lakesight.ttf") format("truetype"), url("/modules/core/css/fonts/Lakesight.svg#Lakesight") format("svg");
+    src: url("/static/css/fonts/Lakesight.eot?") format("eot"), url("/static/css/fonts/Lakesight.woff") format("woff"), url("/static/css/fonts/Lakesight.ttf") format("truetype"), url("/static/css/fonts/Lakesight.svg#Lakesight") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -206,7 +206,7 @@ a > .flaticon-uniE501:before {
 /*HEADER*/
 
 .header {
-    background: url('/modules/core/img/assets/home/background-light.jpg');
+    background: url('/static/background-light.jpg ');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -390,7 +390,7 @@ span.flaticon-uniE496 {
 }
 .why_andela_circle {
     height: 212px;
-    background: url('/modules/core/img/assets/home/circle.png') no-repeat center;
+    background: url('/static/circle.png') no-repeat center;
     background-size: contain;
     line-height: 212px;
     text-align: center;
@@ -414,7 +414,7 @@ span.flaticon-uniE496 {
 }
 .why_andela_circle_right {
     height: 212px;
-    background: url('/modules/core/img/assets/home/circle.png') no-repeat center;
+    background: url('/static/circle.png') no-repeat center;
     background-size: contain;
     position: absolute;
     width: 13%;

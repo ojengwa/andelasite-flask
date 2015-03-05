@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Flaticon";
-	src: url("/modules/core/css/fonts/flaticons_stroke/flaticons-stroke.eot");
-	src: url("/modules/core/css/fonts/flaticons_stroke/flaticons-stroke.eot#iefix") format("embedded-opentype"),
-	url("/modules/core/css/fonts/flaticons_stroke/flaticons-stroke.woff") format("woff"),
-	url("/modules/core/css/fonts/flaticons_stroke/flaticons-stroke.ttf") format("truetype"),
-	url("/modules/core/css/fonts/flaticons_stroke/flaticons-stroke.svg") format("svg");
+	src: url("/static/css/fonts/flaticons_stroke/flaticons-stroke.eot");
+	src: url("/static/css/fonts/flaticons_stroke/flaticons-stroke.eot#iefix") format("embedded-opentype"),
+	url("/static/css/fonts/flaticons_stroke/flaticons-stroke.woff") format("woff"),
+	url("/static/css/fonts/flaticons_stroke/flaticons-stroke.ttf") format("truetype"),
+	url("/static/css/fonts/flaticons_stroke/flaticons-stroke.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }

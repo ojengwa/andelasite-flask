@@ -11,7 +11,7 @@
     font-style: normal;
 }
 .about_us_page {
-    background-image: url('/modules/core/img/dotted-map.png');
+    background-image: url('/static/dotted-map.png');
     margin-top: 0.5%;
     background-size: 100% 100%;
     min-height: 600px;

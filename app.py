@@ -42,10 +42,55 @@ assets.register('js_all', js)
 
 @app.route("/")
 def index():
-   # return "hello"
     return render_template("index.html")
+
+
+@app.route("/hire_developer")
+def hire():
+    return render_template("hire.html")
+
+
+
+@app.route("/services")
+def services():
+    return render_template("services.html")
+
+
+@app.route("/about_us")
+def about():
+    return render_template("about.html")
+
+
+
+@app.route("/meet_the_team")
+def meet_the_team():
+    return render_template("meet_the_team.html")
+
+
+
+@app.route("/meet_partners")
+def meet_partners():
+    return render_template("meet_partners.html")
+
+
+
+@app.route("/andela_network")
+def andela_network():
+    return render_template("andela_network.html")
+
+
+@app.route("/whatwedo")
+def what_we_do():
+    return render_template("what_we_do.html")
+
+
+@app.route("/fellowship")
+def fellowship():
+    return render_template("fellowship.html")
+
 
 if __name__ == "__main__":
     ip = "::1"
-    port = 3000
+    port = 5000
     app.run(ip, port)
+
