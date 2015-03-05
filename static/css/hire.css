@@ -1,0 +1,278 @@
+@font-face {
+	font-family: 'Proxima';
+	src: url('/modules/core/fonts/ProximaFontFiles/proxima/proximanova-webfont.eot');
+	src: url('/modules/core/fonts/ProximaFontFiles/proxima/proximanova-webfont.eot?#iefix') format('embedded-opentype');
+	src: url('/modules/core/fonts/ProximaFontFiles/proxima/proximanova-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+html, body,section{
+	width: 100%;
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', Helvetica,Arial,sans-serif; 
+	font-weight: 300; 
+	font-style: normal;
+	color: #576779 ;
+	margin: 0 auto;
+}
+.hire_container{
+	min-height: 138px;
+	background-color: #ec6c5d;
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', Helvetica,Arial,sans-serif; 
+	font-weight: 300; 
+	font-style: normal;
+	color: #fff;
+	margin: 2% auto;
+}
+
+#find_text_header{
+	padding-top: 16px;
+}
+
+.hire_text h3{
+	font-size: 2.5em;
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', Helvetica,Arial,sans-serif; 
+	font-weight: 300; 
+	font-style: normal;
+	text-transform: none;
+}
+
+.call_div {
+	color: white;
+	padding-top: 5%;
+	text-align: center;
+	font-size: 1.1em;
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', Helvetica,Arial,sans-serif; 
+	font-weight: 300; 
+	font-style: normal;
+}
+
+hr {
+	width: 25%;
+	height: 1px;
+	margin-top: 1px;
+	position: inherit;
+	border: 1px;
+}
+
+.input-group-addon{
+  background-color:#fff;
+  border-radius: 0;
+  z-index:0;
+  
+}
+
+.column_margin{
+	margin: 0 2%;
+	padding: 5% 5%;
+}
+.column_margin2{
+	margin: 0 3%;
+	padding: 5% 3%;
+}
+.form-control{
+  border-radius:0;
+  border-left:none;
+  z-index:0;
+  box-shadow: none;
+
+}
+ .input-group{
+  margin:2%;
+
+} 
+ .form-control:focus::-webkit-input-placeholder {
+    color: #ea5e4e;
+} 
+.input-group:focus {
+  border-color: #ea5e4e ;
+ }  
+
+.colored-fields .input-group-addon {
+	color: #ea5e4e !important;
+}
+
+.colored-fields {
+	border-color: #ea5e4e !important;
+}
+
+.flat_position {
+	position: relative;
+	left: -17px;
+	top: 7px;
+	color: #ced2d4;
+	font-size: 10px;
+}
+
+.flat_position:before{
+	font-size: 14px;
+}
+
+
+.input-group:focus .input-group-addon:after{
+  color: #ea5e4e ;
+ } 
+
+.form-control:focus{
+  border-color:#ccc;
+  box-shadow: none;
+}
+.input-group-addon:after {
+	content: "|";
+	top: -7px;
+	right: -15px;
+	position: relative;
+	color: #ced2d4;
+}
+
+.submit_developer_form{
+	border: none !important;
+}
+
+
+.submit_developer_form:hover{
+	background: #ea5e4e;
+}
+
+.submit_input{
+	width: 96%;
+}
+.what_you_get_div{
+	width: 100%;
+	border: 1px solid #ced2d4;
+	margin: 3% auto;
+	border-radius: 4px;
+}
+.input-group .form-control {
+	height: 49px;
+	padding-left: 0;
+}
+.client_div{
+	width: 100%;
+	border: 1px solid #ccc;
+	margin: 3% auto;
+	border-radius: 3px;
+}
+.client_div span{
+	font-weight: 400;
+}
+
+.column_div{
+	margin: 0 auto;
+	padding: 0 14%;
+
+}
+.client_div, .what_you_get_div{
+	padding: 4%;
+	font-size: 1.1em;
+}
+.what_you_get_div p, .what_you_get_div h4{
+	text-align: center;
+}
+
+.what_you_get_div p{
+	font-weight: 400;
+}
+
+.what_you_get_div h4{
+	font-weight: 400;
+	font-size: 1.3em;
+}
+.employees, .developers {
+	display: inline-block;
+	margin-left: 2%;
+	border-left: 1px solid #ccc;
+	width: 45%;
+}
+
+.country select {
+	outline: 0;
+	background: transparent;
+	padding-left: 25px;
+	left: -2%;
+	height: 45px;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+.developers{
+	margin-left: 2%;
+}
+.employees .form-control, .developers .form-control{
+	padding-left: 15%;
+}
+.form-group{
+	border:1px solid #ccc;
+}
+.form-group:hover{
+	background-color:#ea5e4e;
+}
+
+.comment_div .form-control, .technical_div .form-control{
+ height: 150px;
+ resize: none;
+}
+
+.technical_div .input-group-addon:after, .comment_div .input-group-addon:after{
+	content: "|";
+	top: -64px;
+	right: -13px;
+	position: relative;
+}
+
+.technical_div .flat_position, .comment_div .flat_position{
+	content: "|";
+	top: -45px;
+	right: -13px;
+	position: relative;
+}
+
+form{
+	padding-left: 5%;
+}
+.client_div p{
+	padding: 10px 13px;
+}
+.client_div{
+	text-align: center;
+}
+
+.quotes {
+	font-size: 11em;
+	color: #ccc;
+	position: absolute;
+	right: 27%;
+	bottom: -3%;
+}
+.hire_number {
+	color: white; 
+	position: relative; 
+	left: 70em;
+	top: -76px;
+}
+.text-success{
+	height: 30px;
+	background-color: #EEC;
+	width: 80%;
+	margin: 0 auto;
+	padding: 1%;
+	border-radius: 5px;
+	border: 1px solid green;
+}
+.text-error{
+	height: 30px;
+	background-color: #ec6c5d;
+	width: 80%;
+	margin: 0 auto;
+	padding: 1%;
+	border-radius: 5px;
+	border: 1px solid red;
+}
+.submit_developer_form {
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: bolder;
+	background-color: #ec6c5d;
+}
+.submit_developer_form .fa {
+	color: #000;
+}

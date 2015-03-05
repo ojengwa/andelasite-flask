@@ -1,0 +1,75 @@
+<section class="andela-footer">
+    <div class="container">
+    <!-- col-md-12 col-sm-12 col-xs-12 -->
+        <div class="">
+            <div class="col-md-6 col-sm-12 col-xs-12" >
+                <h4 class="upToDate" style="color: white;">Stay up to date with Andela Announcements</h4>
+                <div class="news_form">
+                    <form name="MailchimpSubscriptionForm" ng-controller="MailchimpSubscriptionCtrl" class="news_form">
+                        <div ng-hide="mailchimp.result === 'success'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.username" ng-init="mailchimp.username='andela'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.dc" ng-init="mailchimp.dc='us8'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.u" ng-init="mailchimp.u='8dfd499c7f14750606b0767aa'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='7557c7614a'">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.fname" placeholder="First name">
+                            <input class="hidden" type="hidden" ng-model="mailchimp.lname" placeholder="Last name">
+                            <input type="text" name="email" ng-model="mailchimp.email" placeholder="Email Address" required>
+                            <button class="btn btn-default" track-button-click="Stay Up To Date" ng-click="addSubscription(mailchimp)"><span class="flaticon-uniE493"></span></button>
+                        </div>
+                        <div ng-show="mailchimp.result === 'error'" ng-cloak>
+                            <span ng-bind-html="mailchimp.errorMessage"></span>
+                        </div>
+                        <div ng-show="mailchimp.result === 'success'" ng-cloak>
+                            <span ng-bind-html="mailchimp.successMessage"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="" style="margin-top:10px">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <ul class="andela_footer_link">
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="/about_us">ABOUT</a></li>
+                            <li><a href="/meet_the_team">TEAM</a></li>
+                            <li><a href="/whatwedo">WHAT WE DO</a></li>
+                            <li><a href="http://goo.gl/62pUHH">MENTOR OUR FELLOWS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <ul class="andela_footer_link">
+                            <li><a href="/hire_developer">FIND A DEVELOPER</a></li>
+                            <li><a href="https://app.plum.io/posting/lagos_nigeria_andela_fellow_class_vi.html?pos=497" target="_blank">APPLY</a></li>
+                            <li><a href="/fellowship">FELLOWSHIP</a></li>
+                            <li><a href="http://blog.andela.co/">BLOG</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pad-left-15">
+            <p class="connectParagraph">Connect with us</p>
+        <ul class="facebookIcon">
+            <li>
+                <a target="_blank" href="https://www.facebook.com/thisisandela"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://twitter.com/andela"><i class="fa fa-twitter-square fa-2x"></i></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/company/andela"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            </li>
+        </ul>         
+            <div class="col-md-6">
+                <div class="fellows-love">
+                    Made with<span class="flaticon-uniE49E" id="heart_icon"></span> by the Andela Fellows
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="copyrights">
+                    <img src="static/logo-icon.png"><span style="color: white;">Copyright Andela 2014</span>
+                </div>
+            </div>
+        </div>        
+    </div>
+</section>

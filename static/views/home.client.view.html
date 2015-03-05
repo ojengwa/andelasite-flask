@@ -1,0 +1,207 @@
+<section data-ng-controller="HomeController" track-page-view="Home">
+    <div class="header">
+        <div class="intro-text text-center">
+            <hr class="top">
+            <div class="intro-heading">Bring the world’s brightest minds
+                <br/>to your team.
+            </div>
+            <div class="intro-lead-in">
+                Andela is a global talent accelerator that produces world-class remote developers and connects them with your team.
+                <hr class="top bottom">
+            </div>
+            <!-- <hr class="top bottom"> -->
+            <!-- <div class='flaticon-uniE5BD'></div> -->
+        </div>
+    </div>
+
+    <div class="header_contact">
+        <div class="sit_back text-center">
+            <div class="wait_list">
+                Join our Waitlist
+                <br>
+                <span class="lakesight">Or</span>
+                <em>(888) 472-5913</em>
+            </div>
+            <div class="header_form">
+                <form name="email_form" ng-submit="email_form.email.$invalid && submit_email()">
+                    <!--<input type="text" ng-model="credentials.email" placeholder="EMAIL" class="div_email">
+                    <button type="submit" class="btn btn-default" track-button-click="Join Waitlist"><span class="flaticon-uniE496"></span></button></a>-->
+                    <input type="text" name="email" ng-model="credentials.email" placeholder="EMAIL" class="div_email" required Placeholder="Email" ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/">
+                    <a ng-href="#!/hire_developer" class="dev_link">
+                        <button type="submit" class="btn btn-default" ng-disabled="email_form.$invalid" track-button-click="Join Waitlist">
+                            <span class="flaticon-uniE496"></span>
+                        </button>
+                    </a>
+                    <p ng-show="email_form.email.$invalid && !email_form.email.$pristine" class="help">Please enter a valid Email Address.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="why_andela">
+        <div class="wwd text-center why_text">
+            WHY ANDELA
+            <hr class="top">
+        </div>
+        <div class="text">
+            <p id='why_description'>The race for top technical talent is becoming increasingly competitive. Companies around the world are struggling to find software developers, but there simply aren't enough of them to meet the demand. Enter Andela. Our mission is to give you access to world-class talent and give brilliant young people in Africa an on-ramp to the digital economy.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="why_andela_circle">
+                        <img src="static/telescope-icon.png">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="why_andela_text">
+                        <h3 class="why_andela_head_two">Source the world’s brightest minds</h3> Using rigorous aptitude tests and a two-week-long screening process, we select fewer than 1% of applicants to become Andela developers. That’s right, we’re 10 times more selective than Harvard.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-push-8">
+                    <div class="why_andela_circle">
+                        <img src="static/code-icon.png">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="why_andela_text">
+                        <h3 class="why_andela_head_two">Build world-class developers</h3> Every Andela developer has at least 1,000 hours of coding experience.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="why_andela_circle">
+                        <img src="static/computer-icon.png">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="why_andela_text">
+                        <h3 class="why_andela_head_two">Expand your capacity, empower your team</h3> Andela developers work as full-time, remote developers for your team. Oh, and your business hours are our business hours.
+                    </div>
+                </div>
+            </div>
+            <hr class="divider">
+
+            <div class="what_we_do">
+                <div class="wwd text-center">
+                    What we Do
+                    <hr class="top">
+                    <div class="text">
+                        <p>We find the brightest young people in Africa, train them to be world-class developers, and connect them with employers around the world looking for top technical talent.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1 col-sm-6">
+                        <div class="what_we_do-box">
+                            <div class="circle">1</div>
+                            <img src="static/code-orange-icon.png">
+                            <h3>Assess your technology needs
+                            </h3>
+                            <p>Drill down to understand what you’re trying to accomplish and the technical support you need to get there.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <div class="what_we_do-box">
+                            <div class="circle">2</div>
+                            <img src="static/match-icon.png">
+                            <h3>Find an Andela developer that fits your criteria
+                            </h3>
+                            <p>Match your technical needs with the Andela developer best equipped to get the job done.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1 col-sm-6">
+                        <div class="what_we_do-box">
+                            <div class="circle">3</div>
+                            <img src="static/shield-icon.png">
+                            <h3>On-board and integrate</h3>
+                            <p>When you integrate an Andela developer into your team, you won’t just get a brilliant coder – you’ll get a thought partner.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <div class="what_we_do-box">
+                            <div class="circle">4</div>
+                            <img src="static/world-icon.png">
+                            <h3>Gain a competitive edge
+                            </h3>
+                            <p>Some of the world’s largest tech companies rely on Andela to access top talent. You can, too.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="learn_more text-center">
+                <button class="btn btn-lg find_btn_bottom" track-button-click="Find A Developer"><a href="/#!/hire_developer">FIND A DEVELOPER</a>
+                </button>
+            </div>
+            <div class="risk_free text-center">
+                Try Andela
+                <em>
+                    <strong>RISK-FREE.</strong>
+                </em>If you’re not satisfied after 30 days, you don’t pay. Period.
+            </div>
+        </div>
+    </div>
+    <div class="wwd text-center">
+            As Featured in
+            <hr class="top">
+    </div>
+    <div class="newsInfo">
+        <a id="wiredLink" target ="_blank" href="http://www.wired.com/2014/12/andela/"><img src="static/wired_logo.gif" id="wiredLogo"></a>
+        <a target ="_blank" href="http://www.cnn.com/2014/12/24/tech/africa-tech-startups-2014/"><img id="cnnLogo" src="static/CNN-logonew.jpg"></a>
+        <a target ="_blank" href="http://www.forbes.com/sites/shamahyder/2014/12/29/12-companies-transforming-education-to-watch-next-year"><img src="static/Forbes-logonew.jpg" id="forbesLogo"></a>
+        <a target ="_blank" href="http://techcrunch.com/2014/11/24/game-recognizes-game-as-carmelo-makes-his-first-vc-plays/"><img id="techcrunchLogo" src="static/techcrunch_logo.png"></a>
+    </div>
+    <!-- <div class="row">
+        <div class="in-the-media">
+            <div class="wwd text-center">
+                In the media
+                <hr class="top">
+            </div>
+            <div class="in-the-media-img container-fluid text-center">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="col-md-4 techcrunch">
+                        <a href="http://techcrunch.com/2014/11/24/game-recognizes-game-as-carmelo-makes-his-first-vc-plays/"><img src="/modules/core/img/techcrunchLogo.png">
+                        </a>
+                    </div>
+                    <div class="col-md-4 bloomberg">
+                        <img src="/modules/core/img/bloomberg.png">
+                    </div>
+                    <div class="col-md-4 cnbc">
+                        <a href="http://video.cnbc.com/gallery/?video=3000309552#"><img src="/modules/core/img/cbnc.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div>
+        <div class="wwd text-center">
+            Testimonials
+            <hr class="top">
+        </div>
+        <carousel interval="myInterval" show-arrow disable-ng-animate>
+            <slide data-ng-repeat="slide in slides" active="slide.active">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="testimonial-div">
+                        <p data-ng-bind="slide.comment"></p>
+                        <div class="quote-headshot">
+                            <img ng-src='static/{{slide.image}}'>
+                        </div>
+                        <div>
+                            <p><b data-ng-bind="slide.maker"></b>
+                            </p>
+                            <p><i data-ng-bind="slide.bio"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+</section>

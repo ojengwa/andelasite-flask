@@ -1,0 +1,285 @@
+@font-face {
+font-family: 'Proxima';
+src: url('/modules/core/fonts/ProximaFontFiles/proxima/proximanova-webfont.eot');
+src: url('/modules/core/fonts/ProximaFontFiles/proxima/proximanova-webfont.eot?#iefix') format('embedded-opentype');
+src: url('/modules/core/fonts/ProximaFontFiles/proxima/proximanova-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.section_div h3 {
+	text-align: center;
+	margin: 0;
+	font-size: 2.5em;
+	font-weight: 300;
+	padding: 15px 0 15px 0;
+}
+.service_container{
+	font-family: "Proxima Nova Bold Italic";
+	color: black;
+}
+.service_display{
+	margin: 0 auto;
+	padding:  2%;
+}
+.what_we_do-box {
+	position: relative;
+	min-height: 340px;
+	padding: 3.5em 2.5em;
+	margin: 1.0em;
+	margin-bottom: 2em;
+	text-align: center;
+	border: 1px solid #dedede;
+}
+.what_we_do-box h3 {
+	text-transform: capitalize;
+	font-size: 1.3em;
+	margin-top: 2.0em;
+	min-height: 2.5em;
+}
+.what_we_do-box p {
+	line-height: 1.3em;
+	color:#A7ABB1;
+}
+.circle {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	border: 1px solid #dedede;
+	font-size: 20px;
+	color: #3d3451;
+	text-align: center;
+	background: #FFF;
+	left: -20px;
+	top: -20px;
+	z-index: 100;
+	line-height: 40px;
+}
+.full-stack {
+	background-color: #545B6B;
+	padding: 5em 0;
+	text-align: center;
+}
+.full-stack h3 {
+	padding: 0;
+}
+.inverse {
+	color: #FFF;
+}
+.inverse-border {
+	border-color: #FFF
+}
+.left-bar {
+	position: relative;
+	border-left: 1px solid #efefef;
+	padding: 5em 0;
+	padding-left: 50px;
+}
+.left-bar h4 {
+	margin: 0;
+	font-size: 2.0em
+}
+.left-bar p {
+	margin: 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.what_we_do-description {
+	padding: 5em 0;
+	text-align: center;
+}
+.what_we_do-description p {
+	font-size: 12px;
+}
+
+.full-stack-details p {
+	font-size: 1.3em;
+}
+
+#text {
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+.what_we_do-description .what_we_do-details {
+	padding-bottom: 5em;
+}
+.full-stack-details p {
+	margin-top: 2.2em;
+	line-height: 1.3em;
+}
+.andela-developer {
+	margin:0; padding: 0;
+	margin-top: 2em;
+	margin-bottom: 4em;
+	/*display: inline-block;*/
+}
+.andela-developer li>div {
+	/*float: left;*/
+	position: relative;
+
+	border: solid 1px #dedede;
+	/*min-height: 55px;*/
+	/*line-height: 55px;
+	*/
+	display: inline-block;
+	clear: both;
+	max-width: 100%;
+	padding: 20px 20px;
+	font-size: 1.2em;
+	/*white-space: nowrap;*/
+
+}
+.andela-developer li>div:nth-child(1n){
+	/*clear: both;*/
+}
+.andela-developer li>div> .pointer-arrow {
+	position: absolute;
+	left: -22px; top: 25%;
+}
+.andela-developer li>div > .pointer-arrow .top {
+	position: absolute;
+	left: 2px;
+	top: 1px;
+    width    : 0;
+    height   : 0;
+    z-index  : 100;
+    border-right : 10px solid white;
+    border-top : 10px solid transparent;
+    border-left : 10px solid transparent;
+    border-bottom : 10px solid transparent;
+}
+.andela-developer li>div> .pointer-arrow .bottom {
+    width    : 0;
+    height   : 0;
+    z-index  : 99;
+    border-right : 11px solid #dedede;
+    border-top : 11px solid transparent;
+    border-left : 11px solid transparent;
+    border-bottom : 11px solid transparent;
+}
+.cta{
+	text-align: center;
+	margin: 10px 0 20px;
+	
+}
+.cta.cta-bottom{
+	margin-left: -40px;
+}
+
+
+
+.cta>div{margin: 10px 0;}
+.cta .btn {
+	background: #EC6D5E;
+	border: none;
+	text-shadow: none;
+	font-size: 1.4em;
+	font-weight: 700;
+	min-width: 14em;
+	margin: 10px 0;
+	max-width: 90%;
+	min-height: 2.7em;
+}
+
+@media (max-width: 400px)
+{
+	.cta .btn
+	{
+		font-size: 1em !important;
+	}
+}
+
+.full-left-column, .full-right-column {
+	float: left;
+	width: 50%;
+}
+.full-left-column p, .full-right-column p {
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+.full-left-column .contents {
+	padding-right: 1.5em;
+}
+.full-right-column .contents {
+	padding-left: 1.5em;
+}
+.full-left-column {
+	text-align: right;
+}
+.full-right-column {
+	text-align: left;
+}
+.full-right-column h1, .full-left-column h1 {
+	font-size: 1.4em;
+	font-weight: 700;
+}
+.course-details {
+	margin-top:2.0em;
+}
+.bulletin_arrow {
+	position: relative;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.bulletin_arrow:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #88b7d5;
+	border-width: 28px;
+	margin-top: -28px;
+}
+.andela-developer h5{
+	text-transform: none;
+	font-weight: 200;
+	margin: 0px;
+	display: block;
+	padding: 0px !important;
+	font-size: 1.0em;
+}
+.andela-developer li>div:before{
+	content: url('/modules/core/img/check_s.png');
+	position: absolute;
+	top:25%;
+	left: -64px;
+}
+
+.services {
+	padding-top: 125px;
+}
+
+.what_we_do-banner {
+	background: url('/modules/core/img/assets/services/laptop-services-bg.jpg') no-repeat center;
+	background-size: cover;
+	height: 300px;
+}
+
+.what_we_do-banner hr {
+width: 12%;
+height: 3px;
+margin-top: 1px;
+position: initial;
+left: 0;
+margin-bottom: 1px;
+border-top: 3px solid #576779;
+}
+.full-stack-details hr {
+color: #ccc;
+width: 22%;
+height: 3px;
+margin-top: 15px;
+background-color: #ccc;
+position: initial;
+left: 0;
+}
+ul{
+	list-style-type: none;
+}

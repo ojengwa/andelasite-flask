@@ -1,0 +1,36 @@
+/*in the media div*/
+
+.in-the-media-img {
+    background-color: #f8f8f8;
+    padding: 25px 0 13px 0;
+}
+.in-the-media-img .cnbc {
+    margin-top: -10px;
+}
+@media screen and (max-width: 990px) {
+    .in-the-media-img .cnbc{
+        margin: 14px 0;
+    }
+    .in-the-media-img .bloomberg{
+        margin: 20px 0 0 0;
+    }
+
+    .in-the-media-img{
+        margin: 30px 0;
+    }
+}
+/*
+about side bar
+
+*/
+
+li.andela-network-btn, li.partners-btn {
+    margin-left: 20px;
+    color: #000;
+}
+li.partners-btn {
+    margin-top: 25px;
+}
+li.andela-network-btn:hover, li.partners-btn:hover {
+    color: #2a6496;
+}

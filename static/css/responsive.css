@@ -1,0 +1,1499 @@
+.andela-footer {
+    /*margin-top: 2%;*/
+    font-size: 13px;
+    padding: 20px 0 40px;
+}
+.andela-footer form {
+    padding: 0 !important;
+}
+
+.andela_footer_link li a
+{
+
+}
+.copyrights {
+    /*margin-left: 36px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;*/
+    text-align: right;
+    margin: 10px  -20px 0 0;
+    font-size: 11px;
+}
+
+.copyrights > img{
+    height: 14px;  
+    margin-right: -8px !important;
+}
+
+.fellows-love {
+    /* margin-right: 50px;*/
+     /*position: absolute;*/
+     /*bottom: -13px;*/
+     /*right: 0;*/
+     color: #FFF;
+     margin: 10px 0;
+     font-size: 11px;
+}
+
+.flaticon-uniE49E:before{
+    font-size: 11px;
+}
+
+.sit_back {
+background: #576779;
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+padding-top: 9px;
+padding-bottom: 10px;
+margin: 204px 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    .wait_list {
+        left: 168px;
+        position: relative;
+    }
+    /*
+*/
+    
+    .why_andela_img_left {
+        left: 17%;
+        position: absolute;
+        top: 21%;
+    }
+    .why_andela_img_right {
+        left: 27%;
+        position: absolute;
+        top: 21%;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    h3.why_andela_head_two {
+        color: #ec6c5d;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        max-width: 74%;
+        padding-left: 25px;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 90px;
+    }
+    .andela_footer {
+        color: white;
+    }
+    .andela_footer_head {
+        font-size: 13.6px;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 45px;
+        padding-top: 73px;
+    }
+    /*.news_form input[type="text"] {
+    color: #576779;
+    font-size: 14px;
+    height: 47px;
+    outline: 0 none;
+    padding-left: 20px;
+    width: 26em;
+}*/
+    .andela_copyright {
+        padding-top: 32px;
+    }
+    .andela_copyright p {
+        padding: 0;
+    }
+    .andela_copyright span {
+        font-size: 15px;
+        margin-left: -16px;
+        position: relative;
+        top: 4px;
+    }
+    .flaticon-uniE493 {
+        left: -8px;
+        position: relative;
+    }
+    .andela_footer_link_one {
+        left: 17px;
+        padding-top: 54px;
+        position: relative;
+    }
+    
+    .andela_footer_link_two {
+        height: 199px;
+        left: -75px;
+        padding-top: 54px;
+        position: relative;
+    }
+    .news_form button, .news_form button:hover, .news_form button:active, .news_form button:focus, .news_form button:visited {
+        background: none repeat scroll 0 0 #576779;
+        border: 4px solid white;
+        border-radius: 4px;
+        color: white;
+        height: 3.5em;
+        outline: 0 none;
+        width: 5em;
+    }
+    span.flaticon-uniE49E {
+        left: -8px;
+        outline: 0 none;
+        position: relative;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 24px;
+    }
+
+    .newsInfo {
+         margin: 0 0 75px 463px; 
+    }
+
+    #wiredLogo {
+    margin: -2px 0 0 -275px;
+    height: 23px;
+    width: 118px;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+
+    #cnnLogo{
+        margin: 0 70px 0 70px;
+        height: 46px;
+        width: 99px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #cnnLogo:hover{
+        margin: 0 70px 0 70px;
+        height: 46px;
+        width: 99px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+    height: 36px;
+    width: 95px;
+    margin: 0 70px 0 0;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+}
+@media screen and (max-width: 988px) {
+    ul.andela_footer_link li {
+        display: inline-block;
+        padding:8px;
+        font-size: 0.8em;
+        margin:3px 0 0;
+        background-color: #ffffff;
+        -webkit-transition: 500ms;
+        transition:500ms;
+    }
+
+    .andela-footer
+    {
+        text-align: center;
+    }
+    ul.andela_footer_link {text-align: center;}
+    .fellows-love
+    {
+        text-align: center;
+    }
+    ul.andela_footer_link li a
+    {
+        color:#576779;
+    }
+    ul.andela_footer_link li:hover>a
+    {
+        color:#ffffff;
+    }
+    ul.andela_footer_link li:hover
+    {
+        background-color: #576779;
+    }
+    .andela_footer_link {
+        margin-top: 2%;
+    }
+
+    .newsInfo {
+         margin: 0 0 75px 447px; 
+    }
+
+    #wiredLogo {
+    margin: -2px 0 0 -275px;
+    height: 23px;
+    width: 118px;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+
+    #cnnLogo{
+        margin: 0 60px 0 60px;
+        height: 46px;
+        width: 96px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #cnnLogo:hover{
+        margin: 0 60px 0 60px;
+        height: 46px;
+        width: 96px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+    height: 36px;
+    width: 95px;
+    margin: 0 60px 0 0;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+}
+@media screen and (max-width: 970px) {
+    .why_andela_text {
+        text-align: center;
+        padding-top: 0;
+    }
+    #why_description {
+        margin-bottom: 50px;
+    }
+    .nav > li > a {
+        color: #3d4351 !important;
+        font-size: 12px;
+    }
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    .navbar-collapse.collapse {
+        left: 13em;
+        max-width: 87%;
+        position: relative;
+        top: -2em;
+    }
+    .wait_list {
+        float: left;
+        left: 147px;
+        position: relative;
+    }
+    /*
+*/
+    
+    .why_andela_img_left {
+        left: 20%;
+        position: absolute;
+        top: 26%;
+    }
+    .why_andela_img_right {
+        left: 28%;
+        position: absolute;
+        top: 22%;
+    }
+    .why_andela_text_three {
+        padding-top: 94px;
+    }
+    .move {
+        position: absolute;
+        top: -5px;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        max-width: 100%;
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        height: 477px;
+        max-width: 900px;
+        padding-bottom: 100px;
+        padding-top: 196px;
+        text-align: left;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 0;
+    }
+    .andela_footer {
+        color: white;
+        height: 0 !important;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 10px;
+    }
+    .andela_footer_head {
+        font-size: 16.6px;
+        padding-left: 0;
+        position: relative;
+    }
+    .closing {
+        font-size: 12px;
+        left: 68px;
+        position: inherit;
+        top: -7px;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 17px;
+    }
+    .andela_copyright {
+        left: 13px;
+        padding-top: 32px;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        margin-left: -26px;
+        position: relative;
+    }
+    .andela_footer_link_one {
+        font-size: 15px;
+        left: -283px;
+        padding: 0;
+        position: relative;
+        top: -132px;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 15px;
+        height: 0;
+        left: -80px;
+        padding-top: 0;
+        position: relative;
+        top: -316px;
+    }
+
+    .newsInfo {
+         margin: 0 0 75px 447px; 
+    }
+
+    #wiredLogo {
+    margin: -2px 0 0 -275px;
+    height: 23px;
+    width: 118px;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+
+    #cnnLogo{
+        margin: 0 55px 0 55px;
+        height: 46px;
+        width: 96px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #cnnLogo:hover{
+        margin: 0 55px 0 55px;
+        height: 46px;
+        width: 96px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+    height: 36px;
+    width: 95px;
+    margin: 0 55px 0 0;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    .nav > li > a {
+        color: #3d4351 !important;
+        font-size: 12px;
+    }
+    .navbar-collapse.collapse {
+        left: 10em;
+        max-width: 87%;
+        position: relative;
+        top: -3em;
+    }
+    .wait_list {
+        float: left;
+        left: 73px;
+        position: relative;
+    }
+    .andela_footer_link_two {
+        font-size: 15px;
+        height: 0;
+        left: -80px;
+        padding-top: 0;
+        position: relative;
+        top: -306px;
+    }
+
+    .newsInfo {
+         margin: 0 0 75px 408px; 
+    }
+
+    #wiredLogo {
+    margin: -2px 0 0 -275px;
+    height: 23px;
+    width: 118px;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+
+    #cnnLogo{
+        margin: 0 55px 0 55px;
+        height: 46px;
+        width: 96px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #cnnLogo:hover{
+        margin: 0 55px 0 55px;
+        height: 46px;
+        width: 96px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+    height: 36px;
+    width: 95px;
+    margin: 0 55px 0 0;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    .nav > li > a {
+        color: #3d4351 !important;
+        font-size: 12px;
+    }
+    .navbar-collapse.collapse {
+        position: relative;
+        top: 0;
+    }
+    .wait_list {
+        float: left;
+        left: 73px;
+        position: relative;
+    }
+    
+    
+    .why_andela_img_left {
+        left: 20%;
+        position: absolute;
+        top: 26%;
+    }
+    .why_andela_img_right {
+        left: 28%;
+        position: absolute;
+        top: 22%;
+    }
+    .why_andela_text_three {
+        padding-top: 94px;
+    }
+    .move {
+        position: absolute;
+        top: -5px;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        height: 477px;
+        max-width: 732px;
+        padding-bottom: 100px;
+        padding-top: 196px;
+        text-align: left;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 0;
+    }
+    .andela_footer {
+        color: white;
+        height: 0 !important;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 7px;
+    }
+    .andela_footer_head {
+        font-size: 29.6px;
+    }
+    .closing {
+        font-size: 12px;
+        left: 68px;
+        position: inherit;
+        top: -7px;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 5px;
+    }
+    .andela_copyright {
+        left: 158px;
+        padding-top: 32px;
+        position: relative;
+        top: 59px;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        margin-left: -26px;
+        position: relative;
+    }
+    .andela_footer_link_one {
+        font-size: 15px;
+        left: -499px;
+        padding: 0;
+        position: relative;
+        top: -63px;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 15px;
+        height: 0;
+        left: -161px;
+        padding-top: 0;
+        position: relative;
+        top: -165px;
+    }
+    
+    .newsInfo {
+         margin: 0 0 75px 383px; 
+    }
+
+    #wiredLogo {
+    margin: -2px 0 0 -275px;
+    height: 23px;
+    width: 118px;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+
+    #cnnLogo{
+        margin: 0 39px 0 39px;
+        height: 46px;
+        width: 99px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #cnnLogo:hover{
+        margin: 0 39px 0 39px;
+        height: 46px;
+        width: 99px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+    height: 36px;
+    width: 95px;
+    margin: 0 39px 0 0;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    .news_form input[type="text"] {
+        width: 70% !important;
+    }
+    .nav > li > a {
+        color: #3d4351 !important;
+        font-size: 12px;
+    }
+    .navbar-collapse.collapse, .navbar-collapse.collapsing {
+        position: relative;
+        background: #FFF;
+        left: 0;
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    #hire {
+        margin: 0 auto;
+    }
+    .testimonial_divider {
+        margin-left: 0;
+    }
+ 
+    .wait_list {
+        left: 0;
+        float: none;
+        text-align: center;
+        position: static;
+    }
+    
+    .why_andela_img_left {
+        left: 20%;
+        position: absolute;
+        top: 26%;
+    }
+    .why_andela_img_right {
+        left: 28%;
+        position: absolute;
+        top: 22%;
+    }
+    .why_andela_text_three {
+        padding-top: 94px;
+    }
+    .move {
+        position: absolute;
+        top: -5px;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        height: 477px;
+        max-width: 732px;
+        padding-bottom: 100px;
+        padding-top: 196px;
+        text-align: left;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 0;
+    }
+    .andela_footer {
+        color: white;
+        height: 0 !important;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 7px;
+    }
+    .andela_footer_head {
+        font-size: 28.6px;
+    }
+    .closing {
+        font-size: 12px;
+        left: 68px;
+        position: inherit;
+        top: -7px;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 5px;
+    }
+    .andela_copyright {
+        left: 158px;
+        padding-top: 32px;
+        position: relative;
+        top: 59px;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        margin-left: -26px;
+        position: relative;
+    }
+    .andela_footer_link_one {
+        font-size: 12px;
+        left: -463px;
+        padding: 0;
+        position: relative;
+        top: -63px;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 12px;
+        height: 0;
+        left: -157px;
+        padding-top: 0;
+        position: relative;
+        top: -165px;
+    }
+    
+    .newsInfo {
+         margin: 0 0 75px 364px; 
+    }
+
+    #wiredLogo {
+    margin: -2px 0 0 -275px;
+    height: 23px;
+    width: 118px;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+
+    #cnnLogo{
+        margin: 0 39px 0 39px;
+        height: 46px;
+        width: 99px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #cnnLogo:hover{
+        margin: 0 39px 0 39px;
+        height: 46px;
+        width: 99px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+    height: 36px;
+    width: 95px;
+    margin: 0 39px 0 0;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+}
+@media screen and (max-width: 640px) {
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    .header {
+        min-height: 220px;
+    }
+    hr.top.bottom {
+        margin-bottom: 80px;
+    }
+   
+    .intro-text {
+        padding-top: 128px;
+    }
+
+    .why_andela_img_left {
+        left: 20%;
+        position: absolute;
+        top: 26%;
+    }
+    .why_andela_img_right {
+        left: 28%;
+        position: absolute;
+        top: 22%;
+    }
+    .why_andela_text_three {
+        padding-top: 94px;
+    }
+    .move {
+        position: absolute;
+        top: -5px;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        height: 477px;
+        max-width: 603px;
+        padding-bottom: 100px;
+        padding-top: 196px;
+        text-align: left;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 0;
+    }
+    .andela_footer {
+        color: white;
+        height: 0 !important;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 7px;
+    }
+    .andela_footer_head {
+        font-size: 21.6px;
+        padding-left: 21px;
+    }
+    .closing {
+        font-size: 12px;
+        left: 181px;
+        position: inherit;
+        top: 101px;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 10px;
+    }
+    .andela_copyright {
+        left: 16px;
+        padding-top: 53px;
+        position: static;
+        top: 34px;
+        padding-left: 211px;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        margin-left: -26px;
+        position: relative;
+    }
+    .andela_footer_link_one {
+        font-size: 12px;
+        left: -463px;
+        padding: 0;
+        position: relative;
+        top: -63px;
+        display: none;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 12px;
+        height: 0;
+        left: -157px;
+        padding-top: 0;
+        position: relative;
+        top: -178px;
+        display: none;
+    }
+
+    .newsInfo {
+        margin: 0 0 75px 314px;
+    }
+
+    #wiredLogo {
+    margin: -2px 0 0 -275px;
+    height: 23px;
+    width: 118px;
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    }
+
+    #cnnLogo{
+        margin: 0 29px 0 29px;
+        height: 46px;
+        width: 99px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #cnnLogo:hover {
+        margin: 0 29px 0 29px;
+        height: 46px;
+        width: 99px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+
+    #forbesLogo {
+        margin: 0 29px 0 0;
+        height: 36px;
+        width: 95px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }
+
+    #forbesLogo:hover {
+      /*  margin: 0 39px 0 0;*/
+        height: 36px;
+        width: 95px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    
+}
+@media screen and (max-width: 600px) {
+    .andela_footer {
+        color: white;
+        height: 0 !important;
+    }
+    .copyrights
+    {
+        text-align: center;
+        margin: 50px 0 0;
+    }
+    .fellows-love
+    {
+        
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 7px;
+    }
+    .andela_footer_head {
+        font-size: 21.6px;
+    }
+    .closing {
+        font-size: 12px;
+        left: 68px;
+        position: inherit;
+        top: -7px;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 10px;
+    }
+    .andela_copyright {
+        left: 32px;
+        padding-top: 32px;
+        position: relative;
+        top: 70px;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        margin-left: -26px;
+        position: relative;
+    }
+    .andela_footer_link_one {
+        font-size: 11px;
+        left: -463px;
+        padding: 0;
+        position: relative;
+        top: -63px;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 12px;
+        height: 0;
+        left: -157px;
+        padding-top: 0;
+        position: relative;
+        top: -174px;
+    }
+
+    .newsInfo {
+        margin: -102px 0 75px 237px;
+     }
+    #wiredLogo {
+        margin: -83px 0 0 0;
+    }
+    #cnnLogo{
+        margin: 85px 62px 30px -112px;
+        height: 48px;
+        width: 99px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }: 
+
+    #cnnLogo:hover {
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+        height: 36px;
+        width: 95px;
+        margin: 214px 60px 32px -167px;
+    }
+    #techcrunchLogo {
+       margin: 313px 0 0 -182px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    .intro-text {
+        padding-top: 143px;
+    }
+    .intro-lead-in {
+        font-size: 22px;
+        margin: 0 auto;
+        max-width: 85%;
+        height: 282px;
+    }
+    /*.wait_list {
+        float: left;
+        left: 113px;
+        position: relative;
+    }*/
+    
+    
+    .why_andela_img_left {
+        left: 20%;
+        position: absolute;
+        top: 26%;
+    }
+    .why_andela_img_right {
+        left: 20%;
+        position: absolute;
+        top: 22%;
+    }
+    .why_andela_text_three {
+        padding-top: 94px;
+    }
+    .move {
+        position: absolute;
+        top: -5px;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        height: 566px;
+        max-width: 480px;
+        padding-bottom: 100px;
+        padding-top: 196px;
+        text-align: left;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 0;
+    }
+    .andela_footer {
+        color: white;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 7px;
+    }
+    .andela_footer_head {
+        font-size: 16.6px;
+    }
+    .closing {
+        font-size: 12px;
+        left: 45px;
+        position: inherit;
+        top: 146px;
+        overflow-x: hidden;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 9px;
+    }
+    .andela_copyright {
+        left: 63px;
+        padding-top: 32px;
+        position: static;
+        top: 76px;
+        padding-left: 80px;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        margin-left: -26px;
+        position: relative;
+        top: 3px;
+    }
+    .andela_footer_link_one {
+        font-size: 14px;
+        left: -229px;
+        padding: 0;
+        position: relative;
+        top: -61px;
+        display: none;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 14px;
+        height: 0;
+        left: -70px;
+        padding-top: 0;
+        position: relative;
+        top: -141px;
+        display: none;
+    }
+    
+     .header_form input[type="text"] {
+        margin-left: -15px;
+        padding-left: 20px;
+        width: 70%;
+    }
+    
+    .newsInfo {
+        margin: 8px 0 75px 179px;
+    }
+
+    #wiredLogo {
+    margin: -28px 0 0 0;
+   }
+    #cnnLogo{
+        height: 48px;
+        width: 99px;
+        opacity: 0.5;
+        margin: 26px 60px 32px 14px;
+        filter:alpha(opacity=40);
+    }: 
+    #cnnLogo:hover {
+        height: 48px;
+        width: 99px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+        margin: -39px 60px 32px 14px;
+        height: 36px;
+        width: 95px;
+    }
+    #techcrunchLogo {
+        margin: 61px 0 0 -186px;
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 400px) {
+    .andela-footer {
+        background-color: #576779;
+    }
+    .news_form input[type="text"] {
+        width: 68% !important;
+    }
+    .navbar-brand > img {
+        height: 25px;
+        margin-left: 65px;
+    }
+    .what_we_do-box {
+        min-height: 0 !important;
+        padding: 2em 0.8em !important;
+    }
+
+    .text {
+        max-width: 100%;
+    }
+    .text p {
+        font-size: 12px;
+    }
+    .wwd {
+        font-size: 24px;
+        text-transform: uppercase;
+        padding: 18px 10px
+    }
+    .risk_free {
+    max-width: 100%;
+    padding-bottom: 40px;
+ }
+    .intro-heading {
+    font-size: 28px;
+    max-width: 96%;
+    }
+   .newsInfo {
+    margin: 0 0 75px 133px;
+   }
+
+   #wiredLogo {
+    margin: 38px 0 0 0;
+   }
+   #cnnLogo{
+        margin: 31px 75px 15px 10px;
+        height: 48px;
+        width: 99px;
+        opacity: 0.5;
+        filter:alpha(opacity=40);
+    }: 
+
+    #cnnLogo:hover {
+        height: 48px;
+        width: 99px;
+        margin: 31px 75px 15px 10px;
+        opacity: 1.0;
+        filter:alpha(opacity=100);
+    }
+
+    #forbesLogo {
+        height: 36px;
+        width: 95px;
+        margin: -16px 60px 32px 14px;
+    }
+
+    #techcrunchLogo {
+        margin: 65px 0 0 -183px;
+    }
+
+}
+
+
+@media (max-width: 360px) {
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    
+    
+    .why_andela_img_left {
+        left: 16%;
+        position: absolute;
+        top: 26%;
+    }
+    .why_andela_img_right {
+        left: 20%;
+        position: absolute;
+        top: 22%;
+    }
+    .why_andela_text_three {
+        padding-top: 94px;
+    }
+    .move {
+        position: absolute;
+        top: -7px;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        height: 650px;
+        max-width: 480px;
+        padding-bottom: 100px;
+        padding-top: 196px;
+        text-align: left;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 0;
+    }
+    .andela_footer {
+        color: white;
+        height: 0 !important;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 7px;
+    }
+    .andela_footer_head {
+        font-size: 11.6px;
+    }
+    .closing {
+        font-size: 12px;
+        left: 35px;
+        position: inherit;
+        top: 137px;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 9px;
+    }
+    .andela_copyright {
+        left: 59px;
+        padding-top: 32px;
+        position: static;
+        top: 76px;
+        padding-left: 62px;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: relative;
+        top: 68px;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        margin-left: -26px;
+        position: relative;
+        top: 3px;
+    }
+    .andela_footer_link_one {
+        font-size: 14px;
+        left: -229px;
+        padding: 0;
+        position: relative;
+        top: -61px;
+        display: none;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 14px;
+        height: 0;
+        left: -70px;
+        padding-top: 0;
+        position: relative;
+        top: -141px;
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px) {
+    .intro-text {
+        padding-top: 134px;
+    }
+    .intro-lead-in {
+        font-size: 19px;
+        margin: 0 auto;
+        max-width: 85%;
+    }
+   
+    .why_andela_img_left {
+        left: 16%;
+        position: absolute;
+        top: 26%;
+    }
+    .why_andela_img_right {
+        left: 20%;
+        position: absolute;
+        top: 22%;
+    }
+    .why_andela_text_three {
+        padding-top: 94px;
+    }
+    .move {
+        position: absolute;
+        top: -7px;
+    }
+    .why_andela_text {
+        font-size: 18px;
+        padding-bottom: 40px;
+        padding-left: 0;
+    }
+    .why_andela_text_right {
+        font-size: 18px;
+        height: 650px;
+        max-width: 480px;
+        padding-bottom: 100px;
+        padding-top: 196px;
+        text-align: left;
+    }
+    .why_andela_text_two {
+        background: none repeat scroll 0 0 #f1f1f1;
+        padding: 0;
+    }
+
+    .andela_footer {
+        color: white;
+        height: 0 !important;
+    }
+    .andela_footer .col-md-6 {
+        padding-left: 24px;
+        padding-top: 7px;
+    }
+    .andela_footer_head {
+        font-size: 9.6px;
+        padding-left: 12px;
+    }
+    .closing {
+        font-size: 12px;
+        left: 27px;
+        position: inherit;
+        top: 1px;
+    }
+    .andela_footer_link_right li a {
+        color: white;
+    }
+    .andela_footer_link_right li {
+        height: 9px;
+    }
+    .andela_copyright {
+        padding-left: 57px;
+        padding-top: 32px;
+        position: static;
+    }
+    .andela_copyright p {
+        padding: 0;
+        position: static;
+    }
+    .andela_copyright span {
+        font-size: 12px;
+        position: static;
+    }
+    .andela_footer_link_one {
+        font-size: 14px;
+        padding: 0;
+        position: static;
+    }
+    
+    .andela_footer_link_two {
+        font-size: 14px;
+        height: 0;
+        padding-top: 10px;
+        position: static;
+    }
+    .quote {
+        left: 27%;
+        position: absolute;
+    }
+    blockquote {
+        border-left: medium none;
+    }
+    
+    .navbar-brand {
+        left: -65px;
+        position: relative;
+    }
+    div.col-md-6.andela_footer {
+        height: auto !important;
+    }
+    div.andela_footer {
+        height: auto !important;
+    }
+    .andela_footer_link_two, .andela_footer_link_one {
+        display: none;
+    }
+}
+
+/*
+    **responsive.css** should be linked or refernced after all generic css stylesheets
+    To avoid usage of !important
+*/

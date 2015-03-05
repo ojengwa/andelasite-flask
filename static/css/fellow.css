@@ -1,0 +1,243 @@
+.apply_btn{
+	display: inline-block;
+	padding: 6px;
+	width: 150px;
+	background-color: #fff;
+	border: 4px solid #00adc6;
+	width: 200px;
+ 	color: #00adc6 ;
+ 	text-shadow: none;
+}
+.application_button{
+	width: 300px;
+	text-align: center;
+	margin: 2% auto;
+	margin-top: 29px;
+
+}
+.application_ul, .fellowship_ul{
+	border-left: 2px solid #ccc;
+	padding: 2%;
+}
+.application_ul li, .fellowship_ul{
+	margin-top: 3%;
+	height: auto;
+	padding:2%;
+
+}
+.bootcamp_div{
+	margin-top: -2%;
+}
+.fellowship_div{
+	margin-top: -3.5%;
+}
+.bootcamp_div{
+	background-color: #f7f8f8;
+}
+.down_apply{
+	margin-top: 5%;
+}
+.fellowship_ul{
+	min-height: 268px;
+}
+
+.alumni_text{
+	margin-top: -21px;
+	font-weight: 400;
+}
+.application_ul li.hey {
+	
+}
+.fellow {
+padding-top: 31px;
+}
+
+#fellowship_header{
+	padding: 0px 0 15px 0;
+}
+
+.date_div h5, date_div1{
+	display: inline-block;
+	vertical-align:middle;
+}
+.date_span, .date_div{
+	vertical-align: top;
+}
+.date_div span{
+	color: red;
+}
+.new_color1{
+	font-size: 30px;
+	background-color: white;
+	color: #ccc;
+	box-shadow:10px;
+}
+.application_ul h5{
+	margin-left: 0px;
+	font-weight: 400;
+}
+.application_ul li :first-child{
+	position: relative;
+	left: -3%;
+}
+.fellowship_ul h5{
+	padding-top: 13px;
+	margin-left: 15px;
+}
+.application_ul li:not(:first-child){
+	margin-left: -8.8%;
+}
+.new_color{
+	font-size: 1.2em;
+	color: #ccc;
+	box-shadow: 10px;
+}
+
+.fellowship_ul li:first-child{
+	position: relative;
+	left: -3.6%;
+}
+.fellowship_ul p{
+	margin-left: 5%;
+}
+.date_span{
+	width: 80px;
+	text-align: center;
+}
+
+.fellow_banner {
+	background: url('/modules/core/img/assets/home/fellowship_background.jpg') no-repeat center;
+	background-size: cover;
+	height: 300px;
+}
+
+.fellow-lead-in {
+	font-size: 15px;
+	max-width: 85%;
+} 
+
+.small_glyph_1{
+	left: -16px;
+}
+
+.header_fellowship{
+	margin-top: -10px;
+}
+
+.bootcamp_header{
+	margin-top: -10px;
+}
+
+.small_glyph_2{
+	left: -25px;
+	background-color: #FFF;
+
+}
+
+.oct_20{
+	left: -37px !important;
+}
+
+.fellowship_lower_text{
+	font-weight: 400;
+}
+
+.fellowship_target{
+	top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	.application_button {
+	    margin: 4% auto 2%;
+	}
+	
+	.application_ul li *:first-child {
+	    left: -3.7%;
+	    position: relative;
+	}
+
+	.application_ul li:not(:first-child) {
+	    margin-left: 16.2%;
+	}
+
+}
+
+
+@media screen and (max-width: 640px) {
+	.application_button {
+	    margin: 4% auto 2%;
+	}
+	
+	.application_ul li *:first-child {
+	    left: -3.7%;
+	    position: relative;
+	}
+
+	.application_ul li:not(:first-child) {
+	    margin-left: 16.2%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.fellow {
+	    font-size: 9px;
+	    padding-top: 79px;
+	}
+	.application_button {
+	    margin: 1% auto 2%;
+	}
+	.application_div{
+		padding-top: 3em;
+
+	}
+	
+	.application_ul li *:first-child {
+	    left: -4%;
+	    position: relative;
+	}
+
+	.application_ul li:not(:first-child) {
+	    margin-left: 16.2%;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+	.fellow {
+	    font-size: 7px;
+	    padding-top: 79px;
+	}
+	.application_button {
+	    margin: 5% auto 2%;
+	}
+	
+	.application_ul li *:first-child {
+	    left: -5%;
+	    position: relative;
+	}
+
+	.application_ul li:not(:first-child) {
+	    margin-left: 16.2%;
+	}
+
+}
+
+
+@media screen and (max-width: 320px) {
+	.fellow {
+	    font-size: 6px;
+	    padding-top: 79px;
+	}
+	.application_button {
+	    margin: 7% auto 2%;
+	}
+	.application_ul li *:first-child {
+	    left: -5%;
+	    position: relative;
+	}
+
+	.application_ul li:not(:first-child) {
+	    margin-left: 16.2%;
+	}
+}

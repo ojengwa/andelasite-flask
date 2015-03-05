@@ -1,0 +1,53 @@
+/*-------------
+carosel
+------------------*/
+
+.carousel-indicators .active {
+    border-color: transparent;
+    background-color: #ec6c5d;
+}
+.carousel-indicators li {
+    border: 1px solid #ec6c5d;
+    margin-top: 300px
+}
+.testimonial-div {
+    z-index: 1;
+    margin: 40px 0;
+    height: 350px;
+}
+.carousel a.right,.carousel a.left {
+    position: absolute;
+    top: 140px;
+    text-decoration: none;
+}
+.carousel a.right {
+    right: 200px;
+}
+
+.carousel a.left {
+    left: 200px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .carousel a.right,.carousel a.left {
+        top: 230px;
+    }
+    .carousel a.right {
+        right: 30px;
+    }
+    .carousel a.left {
+        left: 30px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+    .carousel a.right,.carousel a.left {
+        top: 190px;
+    }
+    .carousel a.right {
+        right: 80px;
+    }
+    .carousel a.left {
+        left: 80px;
+    }
+}

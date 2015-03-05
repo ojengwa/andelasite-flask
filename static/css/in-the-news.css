@@ -1,0 +1,67 @@
+.articles h4 {
+    font-size: 2em;
+}
+.articles p {
+    font-size: 1em;
+}
+.article-text p {
+    font-weight: 500 !important;
+}
+.article-text a {
+    color: #ec6c5d !important;
+    text-decoration: none;
+}
+.articles h4, .articles h6 {
+    font-weight: bold;
+}
+.articles h6 {
+    font-size: 1.2em;
+}
+.article-text p span a, .articles a {
+    text-transform: capitalize !important;
+}
+.article-text ul li {
+    list-style: disc;
+    font-weight: bold;
+}
+
+.tweets {
+    padding-top: 10px;
+}
+.fixed-twitter {
+    position: fixed;
+    top: 80px;
+    z-index: 3;
+    width: 385px;
+}
+.tweets img.loader {
+    padding-top: 40px;
+    margin-left: 18%;
+    display: block;
+}
+.twitterBottom {
+    position: absolute;
+    top: 960px;
+    width: 385px;
+    z-index: 3;
+}
+@media screen and (max-width: 1200px) {
+    .fixed-twitter, .twitterBottom {
+        position: static;
+        top: 80px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .fixed-twitter, .twitterBottom {
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 988px) {
+    .tweets img.loader {
+        margin-left: 50%;
+    }
+}
+
+
+
+
