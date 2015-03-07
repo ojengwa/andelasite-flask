@@ -1,14 +1,13 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, session, abort
 from flask.ext.mongoengine import MongoEngine
 from flask.ext.assets import Environment, Bundle
 from jsmin import jsmin
-
+import models
 
 app = Flask(__name__)
 app.debug = True
 
 assets = Environment(app)
-
 
 js = Bundle('angular.min.js',
             'angular-resource.js',
@@ -50,8 +49,37 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/hire_developer")
+
+# @app.before_request
+# def csrf_protect():
+#     if request.method == "POST":
+#         token = session.pop('_csrf_token', None)
+#         if not token or token != request.form.get('_csrf_token'):
+#             abort(403)
+
+# def generate_csrf_token():
+#     if '_csrf_token' not in session:
+#         session['_csrf_token'] = some_random_string()
+#     return session['_csrf_token']
+
+# app.jinja_env.globals['csrf_token'] = generate_csrf_token    
+
+
+from flask.ext.mongoengine.wtf import model_form
+@app.route("/hire_developer", methods=['POST', 'GET'])
 def hire():
+
+    if request.method == 'POST':
+        HireForm = model_form(models.Hire, exclude=['created'])
+        form = HireForm()
+
+        HireForm = model_form(models.Hire, exclude=['created'])
+
+        form = HireForm(request.form)
+        if form.validate():
+            hire = form.save()
+            print "saved"
+
     return render_template("hire.html")
 
 
@@ -88,6 +116,8 @@ def what_we_do():
 @app.route("/fellowship")
 def fellowship():
     return render_template("fellowship.html")
+
+
 
 
 if __name__ == "__main__":

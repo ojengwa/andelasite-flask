@@ -1,3 +1,4 @@
+{%from 'hire_form.html' import render_field(field)%}						
 <section style="margin-top:80px;"  class="hire_container" track-page-view="Find Developer">
 	<div class="container">
 		<div class="row">
@@ -16,7 +17,9 @@
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="col-md-6">
-					<form name="hireDeveloperForm" data-ng-submit="hireDeveloper()" novalidate>
+					<form name="hireDeveloperForm" action="/hire_developer" method="POST" novalidate>
+					
+						<!-- <input name=_csrf_token type=hidden value="{{ csrf_token() }}"> -->
 						<div data-ng-show="success" class="text-center text-success">
 							<strong data-ng-bind="success"></strong>
 						</div>
@@ -51,7 +54,7 @@
 							<div class="input-group-addon">
 								<div class="flaticon-uniE461 flat_position"></div>
 							</div>
-							<input type="tel" class="form-control" name="phone" ng-model="credentials.telephone" placeholder="Telephone" required/>
+							<input type="tel" name="telephone" class="form-control" name="phone" ng-model="credentials.telephone" placeholder="Telephone" required/>
 						</div>
 						<div class="input-group country" data-ng-class="{ 'error' : hireDeveloperForm.country.$invalid && !hireDeveloperForm.country.$pristine }">
 							<country class="input-group" data-ng-model="credentials.selectedCountry" name="country" placeholder="Country">
@@ -64,7 +67,7 @@
 							<input type="text" class="form-control" name="city" ng-model="credentials.city" placeholder="City" required/>
 						</div>
 						<div class="input-group employees" data-ng-class="{ 'error' : hireDeveloperForm.empls.$invalid && !hireDeveloperForm.empls.$pristine }">
-								<input type="text" class="form-control" name="empls" ng-model="credentials.numberOfEmployee" placeholder="# of Employees" required/>
+								<input type="text" class="form-control" name="numberOfEmployee" ng-model="credentials.numberOfEmployee" placeholder="# of Employees" required/>
 						</div>
 						<div class="input-group developers" data-ng-class="{ 'error' : hireDeveloperForm.devs.$invalid && !hireDeveloperForm.devs.$pristine }">
 								<input type="text" class="form-control" name="devs" ng-model="credentials.numberOfDeveloper" placeholder="# of Current Devs" required/>
@@ -73,7 +76,7 @@
 								<div class="input-group-addon">
 									<div class="flaticon-uniE513 flat_position"></div>
 								</div>
-								<input type="text" class="form-control" name="newdevs" ng-model="credentials.numberOfNewDeveloper" placeholder="# of New Developers Needed" required/>
+								<input type="text" class="form-control" name="numberOfNewDeveloper" ng-model="credentials.numberOfNewDeveloper" placeholder="# of New Developers Needed" required/>
 						</div>
 						<div class="input-group technical_div" data-ng-class="{ 'error' : hireDeveloperForm.needs.$invalid && !hireDeveloperForm.needs.$pristine }">
 							<div class="input-group-addon">
@@ -91,7 +94,7 @@
 							<div class="input-group-addon">
 								<div class="flaticon-uniE420 flat_position"></div>
 							</div>
-							<textarea class="form-control" ng-model="credentials.comments"  placeholder="Comments"></textarea>
+							<textarea class="form-control" ng-model="credentials.comments"  placeholder="Comments" name="comment"></textarea>
 						</div>
 						<div class="input-group submit_input" track-input-click="Submit Developer Request">
 							<button type="submit" class="form-control submit_developer_form" value="SUBMIT" ng-disabled="hireDeveloperForm.$invalid || loading">

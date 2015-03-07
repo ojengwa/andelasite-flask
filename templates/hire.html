@@ -1,5 +1,153 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <section data-ng-include="'{{ url_for('static', filename='views/hire_a_developer.client.view.html') }}'"></section>
+
+<section style="margin-top:80px;"  class="hire_container" track-page-view="Find Developer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-8 hire_text" style="padding-left:12%">
+                    <h3 id='find_text_header'>Find an Andela Developer</h3>
+                        <p>Join the waitlist. By filling out the form you'll get the priority access to an Andela Fellow</p>
+                </div>
+                <div class="call_div">CALL US: (888) 472-5913</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="margin-bottom:4%; margin-top:4%;" data-ng-controller="HireController">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-6">
+                    <form name="hireDeveloperForm" action="/hire_developer" method="POST" novalidate>
+                    
+                        <div data-ng-show="success" class="text-center text-success">
+                            <strong data-ng-bind="success"></strong>
+                        </div>
+                        <div data-ng-show="error" class="text-center text-error">
+                            <strong data-ng-bind="error"></strong>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.name.$invalid && !hireDeveloperForm.name.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE4B2 flat_position"></div>
+                            </div>
+                            <input type="text" class="form-control" name="name" ng-model="credentials.name" placeholder="Name" required/>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.title.$invalid && !hireDeveloperForm.title.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE523 flat_position"></div>
+                            </div>
+                            <input type="text" class="form-control" name="title" ng-model="credentials.title" placeholder="Title" required/>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.company.$invalid && !hireDeveloperForm.company.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE464 flat_position"></div>
+                            </div>
+                            <input class="form-control" type="text" name="company" ng-model="credentials.company" placeholder="Company" required>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.email.$invalid && !hireDeveloperForm.email.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE493 flat_position"></div>
+                            </div>
+                            <input class="form-control" type="email" name="email" ng-model="credentials.email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.phone.$invalid && !hireDeveloperForm.phone.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE461 flat_position"></div>
+                            </div>
+                            <input type="tel" name="telephone" class="form-control" name="phone" ng-model="credentials.telephone" placeholder="Telephone" required/>
+                        </div>
+                        <div class="input-group country" data-ng-class="{ 'error' : hireDeveloperForm.country.$invalid && !hireDeveloperForm.country.$pristine }">
+                            <country class="input-group" data-ng-model="credentials.selectedCountry" name="country" placeholder="Country">
+                            </country>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.city.$invalid && !hireDeveloperForm.city.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE4F6 flat_position"></div>
+                            </div>
+                            <input type="text" class="form-control" name="city" ng-model="credentials.city" placeholder="City" required/>
+                        </div>
+                        <div class="input-group employees" data-ng-class="{ 'error' : hireDeveloperForm.empls.$invalid && !hireDeveloperForm.empls.$pristine }">
+                                <input type="text" class="form-control" name="numberOfEmployee" ng-model="credentials.numberOfEmployee" placeholder="# of Employees" required/>
+                        </div>
+                        <div class="input-group developers" data-ng-class="{ 'error' : hireDeveloperForm.devs.$invalid && !hireDeveloperForm.devs.$pristine }">
+                                <input type="text" class="form-control" name="numberOfDeveloper" ng-model="credentials.numberOfDeveloper" placeholder="# of Current Devs" required/>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.newdevs.$invalid && !hireDeveloperForm.newdevs.$pristine }">
+                                <div class="input-group-addon">
+                                    <div class="flaticon-uniE513 flat_position"></div>
+                                </div>
+                                <input type="text" class="form-control" name="numberOfNewDeveloper" ng-model="credentials.numberOfNewDeveloper" placeholder="# of New Developers Needed" required/>
+                        </div>
+                        <div class="input-group technical_div" data-ng-class="{ 'error' : hireDeveloperForm.needs.$invalid && !hireDeveloperForm.needs.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE41D flat_position"></div>
+                            </div>
+                            <textarea class="form-control" name="needs" ng-model="credentials.technicalNeeds"  placeholder="Technical needs" required></textarea>
+                        </div>
+                        <div class="input-group" data-ng-class="{ 'error' : hireDeveloperForm.aboutUs.$invalid && !hireDeveloperForm.aboutUs.$pristine }">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE4AB flat_position"></div>
+                            </div>
+                            <input class="form-control" name="aboutUs" ng-model="credentials.hearAbout"  placeholder="How did you hear about us ?" required></input>
+                        </div>
+                        <div class="input-group comment_div">
+                            <div class="input-group-addon">
+                                <div class="flaticon-uniE420 flat_position"></div>
+                            </div>
+                            <textarea class="form-control" ng-model="credentials.comments"  placeholder="Comments" name="comment"></textarea>
+                        </div>
+                        <div class="input-group submit_input" track-input-click="Submit Developer Request">
+                            <button type="submit" class="form-control submit_developer_form" value="SUBMIT" ng-disabled="hireDeveloperForm.$invalid || loading">
+                                <span>SUBMIT</span>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    <div class="row">
+                        <div class="what_you_get_div">
+                                <h4>Every Andela developer </h4><hr>
+                                <p>Has at least 1,000 hours of coding experience
+
+                                </p>
+                                <p> +</p>
+                                <p>
+                                    
+                                Ranks in at least the 95th percentile in problem-solving abilities
+
+
+                                </p>
+                                <p>+
+                                </p>
+                                <p>
+                                    Works for you full-time (at least 40 hours per week)
+
+                                </p>
+                                <p>+
+                                </p>
+                                <p>
+                                    Responds in a timely manner during your business hours
+                                </p>
+                                <p>+
+                                </p>
+                                <p>
+                                    More... 
+                                </p>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="client_div">
+                                <p>“Our Andela developer is fantastic. He is gifted, focused and responsive. I don’t need to micromanage him - I just give him a task and when I check back in, it’s done. I look forward to bringing on another Andela developer.”<!--</p><span class="quotes">"</span>--><br>
+                                <span>-Bob Calise <em>CTO of Young Entrepreneur Council (YEC)</em></span>
+                            </div>
+                    </div>
+                        </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+</section>
 {% endblock %}
