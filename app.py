@@ -121,6 +121,5 @@ def fellowship():
 
 
 if __name__ == "__main__":
-    ip = "localhost"
-    port = 8080
-    app.run(ip, port)
+    ip = "0.0.0.0"
+    app.run(host=ip)

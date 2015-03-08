@@ -23,5 +23,6 @@ RUN cd /code
 RUN ls
 RUN pip install -r /code/requirements.txt
 ADD . /code/
-RUN service mongod start
+CMD service mongod start
+CMD python /code/app.py
 
