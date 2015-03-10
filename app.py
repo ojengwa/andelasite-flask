@@ -39,10 +39,10 @@ js = Bundle('angular.min.js',
 assets.register('js_all', js)
 
 
-# app.config["MONGODB_SETTINGS"] = {'DB': "andela_site"}
-# app.config["SECRET_KEY"] = "KeepThisS3cr3t"
+app.config["MONGODB_SETTINGS"] = {'DB': "andela_site"}
+app.config["SECRET_KEY"] = "KeepThisS3cr3t"
 
-# db = MongoEngine(app)
+db = MongoEngine(app)
 
 @app.route("/")
 def index():
@@ -69,16 +69,16 @@ from flask.ext.mongoengine.wtf import model_form
 @app.route("/hire_developer", methods=['POST', 'GET'])
 def hire():
 
-    # if request.method == 'POST':
-    #     HireForm = model_form(models.Hire, exclude=['created'])
-    #     form = HireForm()
+    if request.method == 'POST':
+        HireForm = model_form(models.Hire, exclude=['created'])
+        form = HireForm()
 
-    #     HireForm = model_form(models.Hire, exclude=['created'])
+        HireForm = model_form(models.Hire, exclude=['created'])
 
-    #     form = HireForm(request.form)
-    #     if form.validate():
-    #         hire = form.save()
-    #         print "saved"
+        form = HireForm(request.form)
+        if form.validate():
+            hire = form.save()
+            print "saved"
 
     return render_template("hire.html")
 
