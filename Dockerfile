@@ -1,21 +1,35 @@
-FROM  ubuntu
+FROM ubuntu:14.04
 
-MAINTAINER Ifedapo Olarewaju <ifedapoolarewaju@gmail.com>
+# Update packages
+RUN apt-get update -y
 
-EXPOSE 5000
-
-
+# Install Python Setuptools
 RUN apt-get install -y python-setuptools
-RUN apt-get install -y build-essential python-dev
+
+RUN apt-get install -y curl
+RUN apt-get install -y unzip
+RUN apt-get install -y git
+
+
+# Install pip
 RUN easy_install pip
-RUN pip install virtualenvwrapper
 
-RUN mkdir /code
+RUN git clone https://github.com/andela-bojengwa/andelasite-flask
 
-ADD requirements.txt /code/requirements.txt
-RUN cd /code
-RUN ls
-RUN pip install -r /code/requirements.txt
-ADD . /code/
-CMD python /code/app.py
+RUN ls andelasite-flask/
 
+RUN mkdir randomfolder
+# Bundle app source
+ADD randomfolder /src
+
+
+# Add and install Python modules
+ADD andelasite-flask/requirements.txt /src/requirements.txt
+RUN cd /src; pip install -r requirements.txt
+
+
+# Expose
+EXPOSE  5000
+
+# Run
+CMD ["python", "/src/app.py"]
